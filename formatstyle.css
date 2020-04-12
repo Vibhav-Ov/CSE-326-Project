@@ -1,0 +1,148 @@
+body{
+    background-image: url('f51QWU.jpg');
+    margin:0;
+}
+.header{
+  font-size:40px;
+  font-family: chiller;
+  color:white;
+  text-align: center;
+  font-weight:800;
+  background-image: url("Red Forest Trees HD wallpaper  16.jpg");
+  padding:20px;
+}
+/*container for links*/
+.topnav{
+overflow:hidden;
+background-color:#333;
+border:2px solid;
+border-color:black;
+}
+/*links customisation*/
+.topnav a{
+float: left;
+display: block;
+color: white;
+text-align:center;
+padding:14px 20px;
+text-decoration:none;
+border:2px solid;
+border-color:black;
+}
+/*change color on hover*/
+.topnav a:hover{
+  background-color:white;
+  color:black;
+    box-shadow: 0px 0px 30px 0px rgba(192,192,192,0.8);
+  padding: 12px 20px;
+  font-size: 20px;
+}
+.column{
+  float:left;
+  padding:10px;
+}
+.column.left{
+  margin:0;
+  color:white;
+  margin-bottom: 0;
+  width:auto;
+  border:2px solid;
+  border-color:black;
+  background-color:rgba(192,192,192,0.3);
+}
+.footer1{
+  margin:0;
+  margin-bottom: 0;
+  width:auto;
+  background-color:rgba(192,192,192,0.3);
+  color: white;
+  text-align:center;
+  border:2px solid;
+  border-color:black;
+}
+.column.middle{
+  width:60%;
+  background-color:rgba(192,192,192,0.3);
+  color:white;
+  margin-top:0;
+  margin-bottom:0;
+  border:2px solid;
+  border-color:black;
+}
+.column.right{
+  width:auto;
+  margin-right: 0;
+  margin-top: 0;
+  background-color:rgba(192,192,192,0.3);
+  color:white;
+  margin-bottom: 0;
+  border:2px solid;
+  border-color:black;
+}
+.row::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.dropbtn {
+background-color: #333;
+color: white;
+font-size: 16px;
+border: none;
+text-align:center;
+padding:14px 20px;
+text-decoration:none;
+border:2px solid;
+border-color:black;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #333;
+min-width: 160px;
+z-index: 1;
+border:2px solid;
+border-color:black;
+}
+
+.dropdown-content a {
+color: white;
+background-color: #333;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+border:2px solid;
+border-color:black;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+  color:black;
+  border:2px solid;
+border-color:black;
+box-shadow: 18px 16px 30px 0px rgba(192,192,192,0.8);
+padding: 18px 12px;
+font-size: 20px;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {
+  background-color: white;
+  color: black;
+  border:2px solid;
+  border-color:black;
+  padding: 18px 12px;
+  font-size: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(192,192,192,0.8);
+}
+
+@media only screen and (max-width:600px)
+{
+  body{
+    background-color: pink;
+  }
